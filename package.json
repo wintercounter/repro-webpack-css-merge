@@ -1,0 +1,34 @@
+{
+  "name": "repro-webpack-css-merge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "sideEffects": [
+    "*.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wintercounter/repro-webpack-css-merge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wintercounter/repro-webpack-css-merge/issues"
+  },
+  "homepage": "https://github.com/wintercounter/repro-webpack-css-merge#readme",
+  "devDependencies": {
+    "mini-css-extract-plugin": "^1.1.1",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
+  },
+  "dependencies": {
+    "css-loader": "^5.0.0",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "html-webpack-plugin": "^5.0.0-alpha.6"
+  }
+}
